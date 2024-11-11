@@ -28,8 +28,8 @@ Display all the output images
  
 ## Program:
 ```
-Developed By: ANU VARSHINI M B
-Register NO: 212223240010
+Developed By: Shehan Shajahan
+Register NO: 212223240154
 ```
 ``` Python
 # Import the necessary packages
@@ -39,7 +39,7 @@ import numpy as np
 # Create the Text using cv2.putText
 img = np.zeros((350, 1400), dtype='uint8')
 font = cv2.FONT_HERSHEY_SIMPLEX
-cv2.putText(img, 'ANU VARSHINI', (15, 200), font, 5, (255), 10, cv2.LINE_AA)
+cv2.putText(img, 'Shehan Shajahan', (15, 200), font, 5, (255), 10, cv2.LINE_AA)
 cv2.imshow('created_text', img)
 cv2.waitKey(0)
 
@@ -62,13 +62,16 @@ cv2.destroyAllWindows()
 ## Output:
 
 ### Display the input Image
-![alt text](<Screenshot 2024-04-03 105635.png>)
+![image](https://github.com/user-attachments/assets/f9eb4f46-9195-49ca-be62-82053a4aa474)
+
 
 ### Display the result of Opening
-![alt text](<Screenshot 2024-04-03 105450.png>)
+![image](https://github.com/user-attachments/assets/11dbc488-abb9-4965-bef5-1ef124576584)
+
 
 ### Display the result of Closing
-![alt text](<Screenshot 2024-04-03 105515.png>)
+![image](https://github.com/user-attachments/assets/54de2615-dbb6-40a0-b2fa-06f6cb82a98e)
+
 
 ## Result
 Thus the Opening and Closing operation is used in the image using python and OpenCV.
